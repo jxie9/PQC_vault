@@ -8,9 +8,12 @@
 
 .POSIX:
 
-CC = c99
-CFLAGS = -W -Wall -O2
-LD = c99
+# CC = c99
+CC = gcc
+# CFLAGS = -W -Wall -O2
+CFLAGS = -std=c99 -Wall -Wextra
+# LD = c99
+LD = gcc
 LDFLAGS = 
 LIBS = 
 

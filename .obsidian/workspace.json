@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "cdf7d70f8ad1a3ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cfe6f2b23551c4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77f7e36e2da215a3",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "CC/FALCON.canvas",
+                "viewState": {
+                  "x": 556,
+                  "y": 416,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "FALCON"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed74e392f9986087",
+    "type": "split",
+    "children": [
+      {
+        "id": "133fdf7743d05638",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "192e6df6564e9500",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b0c96472770100d4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b6476c876f6adf3a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "279a1f7c0408bce3",
+    "type": "split",
+    "children": [
+      {
+        "id": "43cff63f7f46f9fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50e5f62980e4288d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CC/FALCON.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for FALCON"
+            }
+          },
+          {
+            "id": "9851936d90b33f93",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CC/FALCON.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from FALCON"
+            }
+          },
+          {
+            "id": "9fda075df689874a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6465a4c7f28ca714",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6ef1127f410c5caf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CC/FALCON.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of FALCON"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "77f7e36e2da215a3",
+  "lastOpenFiles": [
+    "falcon-round3/Reference_Implementation/falcon1024/falcon1024int/build/kat1024int.exe",
+    "falcon-round3/Reference_Implementation/falcon1024/falcon1024int/build/katrng.o",
+    "falcon-round3/Reference_Implementation/falcon1024/falcon1024int/build/PQCgenKAT_sign.o",
+    "falcon-round3/Reference_Implementation/falcon1024/falcon1024int/build/vrfy.o",
+    "falcon-round3/Reference_Implementation/falcon1024/falcon1024int/build/sign.o",
+    "falcon-round3/Reference_Implementation/falcon1024/falcon1024int/build/shake.o",
+    "falcon-round3/Reference_Implementation/falcon1024/falcon1024int/build/rng.o",
+    "falcon-round3/Reference_Implementation/falcon1024/falcon1024int/build/nist.o",
+    "falcon-round3/Reference_Implementation/falcon1024/falcon1024int/build/keygen.o",
+    "falcon-round3/Reference_Implementation/falcon1024/falcon1024int/build/fpr.o",
+    "falcon-round3/Reference_Implementation/falcon1024/falcon1024int/build/fft.o",
+    "CC/A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
+    "CC/FALCON.canvas"
+  ]
+}
