@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
+                "file": "FALCON.canvas",
                 "viewState": {
-                  "x": 3934.67480922501,
-                  "y": 1861.5382820769723,
-                  "zoom": 0.6
+                  "x": -99.83564835927558,
+                  "y": 1415.0219810707035,
+                  "zoom": -0.3629991155412326
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race"
+              "title": "FALCON"
             }
           }
         ]
@@ -164,6 +164,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -174,8 +175,8 @@
   },
   "active": "1804ab12ae868f84",
   "lastOpenFiles": [
-    "FALCON.canvas",
     "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
+    "FALCON.canvas",
     "Figs",
     "Figs/Dam et al. - Table3.png",
     "create a link.md",
