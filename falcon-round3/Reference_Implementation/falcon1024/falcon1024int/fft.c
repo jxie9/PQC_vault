@@ -30,6 +30,7 @@
  */
 
 #include "inner.h"
+#include "falcon_counters.h"
 
 /*
  * Rules for complex number macros:
@@ -170,6 +171,7 @@
 void
 Zf(FFT)(fpr *f, unsigned logn)
 {
+	FALCON_COUNT_FFT();
 	/*
 	 * FFT algorithm in bit-reversal order uses the following
 	 * iterative algorithm:
@@ -251,6 +253,7 @@ Zf(FFT)(fpr *f, unsigned logn)
 void
 Zf(iFFT)(fpr *f, unsigned logn)
 {
+	FALCON_COUNT_IFFT();
 	/*
 	 * Inverse FFT algorithm in bit-reversal order uses the following
 	 * iterative algorithm:
@@ -349,6 +352,7 @@ void
 Zf(poly_add)(
 	fpr *restrict a, const fpr *restrict b, unsigned logn)
 {
+	FALCON_COUNT_POLYADD();
 	size_t n, u;
 
 	n = (size_t)1 << logn;
@@ -362,6 +366,7 @@ void
 Zf(poly_sub)(
 	fpr *restrict a, const fpr *restrict b, unsigned logn)
 {
+	FALCON_COUNT_POLYSUB();
 	size_t n, u;
 
 	n = (size_t)1 << logn;
@@ -399,6 +404,7 @@ void
 Zf(poly_mul_fft)(
 	fpr *restrict a, const fpr *restrict b, unsigned logn)
 {
+	FALCON_COUNT_POLYMULT();
 	size_t n, hn, u;
 
 	n = (size_t)1 << logn;

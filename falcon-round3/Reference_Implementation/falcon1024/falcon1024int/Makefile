@@ -21,20 +21,27 @@ OBJ1 = build/codec.o build/common.o build/fft.o build/fpr.o build/keygen.o build
 
 OBJ2 = build/PQCgenKAT_sign.o build/katrng.o
 
-HEAD1 = api.h fpr.h inner.h
+OBJ3 = build/falcon_inf_main.o
+
+OBJ_count = build/falcon_counters.o
+
+HEAD1 = api.h fpr.h inner.h 
 HEAD2 = api.h ../../../KAT/generator/katrng.h
 
-all: build build/kat1024int
+all: build build/kat1024int build/falcon_bench
 
 build:
 	-mkdir build
 
 clean:
-	-rm -f build/kat1024int $(OBJ1) $(OBJ2)
+	-rm -f build/kat1024int build/falcon_bench $(OBJ1) $(OBJ2) $(OBJ3) $(OBJ_count)
 
-build/kat1024int: $(OBJ1) $(OBJ2)
-	$(LD) $(LDFLAGS) -o build/kat1024int $(OBJ1) $(OBJ2) $(LIBS)
+build/kat1024int: $(OBJ1) $(OBJ2) $(OBJ_count)
+	$(LD) $(LDFLAGS) -o build/kat1024int $(OBJ1) $(OBJ2) $(OBJ_count) $(LIBS)
 
+build/falcon_bench: $(OBJ1) $(OBJ3) build/katrng.o $(OBJ_count)
+	$(LD) $(LDFLAGS) -o build/falcon_bench $(OBJ1) $(OBJ3) build/katrng.o $(OBJ_count) $(LIBS)
+	
 build/codec.o: codec.c $(HEAD1)
 	$(CC) $(CFLAGS) -c -o build/codec.o codec.c
 
@@ -70,3 +77,10 @@ build/PQCgenKAT_sign.o: ../../../KAT/generator/PQCgenKAT_sign.c $(HEAD2)
 
 build/katrng.o: ../../../KAT/generator/katrng.c $(HEAD2)
 	$(CC) $(CFLAGS) -I . -c -o build/katrng.o ../../../KAT/generator/katrng.c
+
+build/falcon_inf_main.o: falcon_inf_main.c $(HEAD1) falcon_counters.h
+	$(CC) $(CFLAGS) -c -o build/falcon_inf_main.o falcon_inf_main.c
+
+build/falcon_counters.o: falcon_counters.c falcon_counters.h
+	$(CC) $(CFLAGS) -c -o build/falcon_counters.o falcon_counters.c
+
