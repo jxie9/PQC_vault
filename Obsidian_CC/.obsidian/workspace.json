@@ -13,11 +13,28 @@
             "state": {
               "type": "canvas",
               "state": {
+                "file": "HQC.canvas",
+                "viewState": {
+                  "x": 1398.758564611215,
+                  "y": -47.802900881610114,
+                  "zoom": -1.1102230246251565e-16
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "HQC"
+            }
+          },
+          {
+            "id": "fe49dde3e88ebca8",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
                 "file": "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
                 "viewState": {
-                  "x": -946.5854222425731,
-                  "y": 1316.003475232211,
-                  "zoom": 0.19999999999999962
+                  "x": 5373.752181967028,
+                  "y": -9.931390581935332,
+                  "zoom": -0.4285856516845376
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -97,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FALCON.canvas",
+                "file": "HQC.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for FALCON"
+              "title": "Backlinks for HQC"
             }
           },
           {
@@ -145,21 +162,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FALCON.canvas",
+                "file": "HQC.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FALCON"
+              "title": "Outline of HQC"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -175,8 +191,10 @@
   },
   "active": "1804ab12ae868f84",
   "lastOpenFiles": [
-    "FALCON.canvas",
     "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
+    "HQC.canvas",
+    "FALCON.canvas",
+    "Untitled.md",
     "Figs",
     "Figs/Dam et al. - Table3.png",
     "create a link.md",
