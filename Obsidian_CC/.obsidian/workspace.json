@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "HQC.canvas",
+                "file": "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
                 "viewState": {
-                  "x": 1398.758564611215,
-                  "y": -47.802900881610114,
-                  "zoom": -1.1102230246251565e-16
+                  "x": 2088.146858174714,
+                  "y": 2427.2689708711714,
+                  "zoom": -0.5522656755121009
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "HQC"
+              "title": "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race"
             }
           },
           {
@@ -30,18 +30,19 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
+                "file": "HQC.canvas",
                 "viewState": {
-                  "x": 5373.752181967028,
-                  "y": -9.931390581935332,
-                  "zoom": -0.4285856516845376
+                  "x": 1061.5981337568257,
+                  "y": 970.6653656200914,
+                  "zoom": -0.6666666666666665
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race"
+              "title": "HQC"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,7 +190,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1804ab12ae868f84",
+  "active": "fe49dde3e88ebca8",
   "lastOpenFiles": [
     "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
     "HQC.canvas",
