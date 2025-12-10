@@ -15,9 +15,9 @@
               "state": {
                 "file": "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
                 "viewState": {
-                  "x": 2088.146858174714,
-                  "y": 2427.2689708711714,
-                  "zoom": -0.5522656755121009
+                  "x": 5108.886618088521,
+                  "y": -26.357867121833706,
+                  "zoom": 0.6666666666666667
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -32,17 +32,16 @@
               "state": {
                 "file": "HQC.canvas",
                 "viewState": {
-                  "x": 1061.5981337568257,
-                  "y": 970.6653656200914,
-                  "zoom": -0.6666666666666665
+                  "x": 1153.429907829332,
+                  "y": 1419.399370502534,
+                  "zoom": 0.24091817428565782
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "HQC"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37b858ede1b7f70",
@@ -190,11 +190,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe49dde3e88ebca8",
+  "active": "1804ab12ae868f84",
   "lastOpenFiles": [
-    "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
     "HQC.canvas",
     "FALCON.canvas",
+    "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
     "Untitled.md",
     "Figs",
     "Figs/Dam et al. - Table3.png",
