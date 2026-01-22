@@ -32,9 +32,9 @@
               "state": {
                 "file": "HQC.canvas",
                 "viewState": {
-                  "x": 437,
-                  "y": 2487.5000000000005,
-                  "zoom": 0
+                  "x": 864.3906072727591,
+                  "y": 4467.033982339854,
+                  "zoom": -0.6666666666666667
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -193,8 +193,8 @@
   },
   "active": "fe49dde3e88ebca8",
   "lastOpenFiles": [
-    "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
     "HQC.canvas",
+    "A_Survey_of_Post_Quantum Cryptography_Start_of_a_New_Race.canvas",
     "Untitled.base",
     "FALCON.canvas",
     "Untitled.md",
