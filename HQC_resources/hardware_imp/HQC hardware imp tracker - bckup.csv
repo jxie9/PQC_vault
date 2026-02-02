@@ -1,0 +1,35 @@
+Ref,Title,Pub,Platform,Multiplier,Notes,"Pub date
+YYYY-MM-DD",Link
+[CCP+26],Accelerating HQC with Additive FFT,IACR ,Processor,"KS+CRT
+FAFFT","- Additive FFT with CRT
+- Used KS+CRT or FAFFT
+- Noted that performance is highly dependent 
+on underlying uarch and ISA",2026-01-09,https://eprint.iacr.org/2026/014
+[JLK+25],"A Sparse Polynomial Multiplier for HQC
+Integrating Parallelism and Power-
+Based Side-Channel Countermeasures","IACR
+preprint",FPGA,Shift-and-add,"- Implements dummy-inserted parallel 
+shift-and-add multiplier",2025-10-30,https://eprint.iacr.org/2025/2003
+[JLK+25],"Efficient Polynomial Multiplication for 
+HQC on ARM Cortex-M4","IACR
+preprint",Processor,FAFFT,- Shares first two authors with ^^,2025-10-17,https://eprint.iacr.org/2025/1939
+[RLC+25],"PHOENIX: Crypto-Agile Hardware 
+Sharing for ML-KEM and HQC","IACR
+preprint",FPGA,FAFFT,"- ""Crypto-agility"" as main motiviation
+- Implements an aspect of FAFFT in RTL 
+to accelerate both ML-KEM and HQC",2025-04-04,https://eprint.iacr.org/2025/601
+[ABP25],"An Efficient and Unified RTL 
+Accelerator Design for HQC-128, 
+HQC-192, and HQC-256","IEEE 
+Transactions on Computers",FPGA,Shift-and-add,"- Dense-sparse mult approach (rendered 
+obsolete due to Channel Power Analysis)
+- Introduces full hardware imp of HQC (need to 
+read through RMRS encode/decode still)
+- Continuation of vv",2025-07-xx,https://ieeexplore.ieee.org/document/10949843
+[ABP24],"A High Efficiency Hardware Design for 
+the Post-Quantum KEM HQC","IEEE 
+International Symposium on Hardware Oriented Security and Trust (HOST)",FPGA,Shift-and-add,"- Dense-sparse mult approach (rendered 
+obsolete due to Channel Power Analysis)",2024-06-06,https://ieeexplore.ieee.org/document/10545409
+[LST+23],"Fast and Efficient Hardware 
+Implementation of HQC",SOCC,FPGA,Shift-and-add,"- Dense-sparse mult approach (rendered 
+obsolete due to Channel Power Analysis)",2023-08-05,https://ieeexplore.ieee.org/document/10257054
